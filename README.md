@@ -1,16 +1,119 @@
-# React + Vite
+# 🛍️ Montio | فروشگاه اینترنتی
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**Montio** یک پروژه فروشگاه اینترنتی با طراحی مدرن و واکنش‌گراست که با همکاری در توسعه فرانت‌اند و بک‌اند پیاده‌سازی شده است.
 
-Currently, two official plugins are available:
+هدف این پروژه، ایجاد تجربه‌ای ساده و کاربرپسند برای خرید آنلاین و کسب تجربه عملی در توسعه یک اپلیکیشن وب فروشگاهی بوده است.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ امکانات پروژه
 
-## React Compiler
+- طراحی رابط کاربری واکنش‌گرا برای اندازه‌های مختلف صفحه
+- نمایش و مرور محصولات
+- صفحات ورود و ثبت‌نام کاربران
+- مسیریابی بین صفحات
+- دریافت و نمایش اطلاعات از APIهای بک‌اند
+- نمایش بنرها و کارت‌های تبلیغاتی
+- اسلایدرها و اسلایدشوهای تعاملی
+- نمایش پیام‌های اطلاع‌رسانی
+- صفحات خانه، درباره ما و تماس با ما
+- استفاده از مستندات Swagger برای بررسی APIهای بک‌اند
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ تکنولوژی‌های استفاده‌شده
 
-## Expanding the Oxlint configuration
+- **React 19:** توسعه رابط کاربری مبتنی بر کامپوننت
+- **Vite:** ابزار توسعه و ساخت پروژه
+- **Tailwind CSS v4:** طراحی و استایل‌دهی
+- **React Router:** مدیریت مسیریابی صفحات
+- **Ant Design:** استفاده از کامپوننت‌های رابط کاربری
+- **Lucide React و React Icons:** نمایش آیکون‌ها
+- **Swiper:** پیاده‌سازی اسلایدرها
+- **React Toastify:** نمایش اعلان‌ها
+- **Animate.css:** استفاده از انیمیشن‌های CSS
+- **Oxlint:** بررسی کد و شناسایی مشکلات احتمالی
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🤝 نحوه توسعه پروژه
+
+این پروژه با همکاری در دو بخش فرانت‌اند و بک‌اند توسعه داده شده است. فرانت‌اند از طریق API با سرویس‌های بک‌اند ارتباط برقرار می‌کند.
+
+### مسئولیت‌های من در پروژه
+
+- طراحی و پیاده‌سازی رابط کاربری با React و Tailwind CSS
+- توسعه صفحات و کامپوننت‌های قابل استفاده مجدد
+- پیاده‌سازی مسیریابی بین صفحات
+- توسعه صفحات ورود و ثبت‌نام
+- اتصال فرانت‌اند به APIهای بک‌اند
+- دریافت و نمایش اطلاعات محصولات، بنرها و کارت‌های تبلیغاتی
+- بررسی و استفاده از مستندات Swagger برای شناخت endpointها و نحوه ارتباط با بک‌اند
+- پیاده‌سازی رابط کاربری واکنش‌گرا
+
+این تجربه باعث شد درک بهتری از ارتباط بین فرانت‌اند و بک‌اند، نحوه استفاده از APIها و اهمیت هماهنگی اعضای تیم در توسعه یک پروژه واقعی به دست بیاورم.
+
+## 🚀 راه‌اندازی پروژه
+
+### پیش‌نیازها
+
+- نصب [Node.js](https://nodejs.org/)
+- نصب npm
+
+### ۱. دریافت پروژه
+
+```bash
+git clone https://github.com/amirvp77/online-shop.git
+```
+
+### ۲. ورود به پوشه پروژه
+
+```bash
+cd online-shop
+```
+
+### ۳. نصب وابستگی‌ها
+
+```bash
+npm install
+```
+
+### ۴. اجرای پروژه
+
+```bash
+npm run dev
+```
+
+پس از اجرا، آدرس محلی نمایش‌داده‌شده در ترمینال را در مرورگر باز کنید.
+
+## 📜 دستورات پروژه
+
+| دستور | توضیحات |
+|---|---|
+| `npm run dev` | اجرای سرور توسعه |
+| `npm run build` | ساخت نسخه نهایی پروژه |
+| `npm run preview` | پیش‌نمایش نسخه ساخته‌شده |
+| `npm run lint` | بررسی کد با Oxlint |
+
+## 🔌 ارتباط با بک‌اند
+
+این پروژه برای دریافت اطلاعات و پیاده‌سازی قابلیت‌های مختلف از APIهای بک‌اند استفاده می‌کند.
+
+مستندات Swagger برای بررسی endpointها و شناخت ساختار درخواست‌ها و پاسخ‌های API مورد استفاده قرار گرفته است.
+
+**توجه:** دسترسی به سرویس‌های بک‌اند ممکن است به شبکه داخلی شرکت نیاز داشته باشد؛ بنابراین اجرای کامل تمام قابلیت‌های وابسته به API خارج از این شبکه تضمین‌شده نیست.
+
+## 🎯 اهداف پروژه
+
+- تقویت مهارت‌های عملی در توسعه فرانت‌اند
+- کسب تجربه در توسعه یک فروشگاه اینترنتی
+- تمرین معماری کامپوننت‌محور در React
+- آشنایی عملی با ارتباط فرانت‌اند و بک‌اند
+- بهبود مهارت کار با API و مسیریابی
+- تمرین طراحی رابط کاربری واکنش‌گرا
+- تجربه همکاری تیمی در توسعه نرم‌افزار
+
+## 👨‍💻 توسعه‌دهنده
+
+**امیر ولی‌پور**
+
+- GitHub: [@amirvp77](https://github.com/amirvp77)
+- Repository: [online-shop](https://github.com/amirvp77/online-shop)
+
+---
+
+این پروژه بخشی از مسیر یادگیری، کسب تجربه عملی و پیشرفت من در توسعه فرانت‌اند است. 🌱
