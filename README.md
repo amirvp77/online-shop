@@ -115,8 +115,8 @@ npm run dev
 - Repository: [online-shop](https://github.com/amirvp77/online-shop)
 
 - ## 👨‍💻 توسعه‌دهنده بک 
-- GitHub: [@MohammadRezaMoghaddamirad]([https://github.com/amirvp77](https://github.com/MohammadRezaMoghaddamirad))
-- Repository: [online-shop]([https://github.com/amirvp77/online-shop](https://github.com/MohammadRezaMoghaddamirad/online-shop))
+- GitHub: [@MohammadRezaMoghaddamirad](https://github.com/MohammadRezaMoghaddamirad)
+- Repository: [online-shop](https://github.com/MohammadRezaMoghaddamirad/online-shop)
 
 ---
 
