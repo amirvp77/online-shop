@@ -107,12 +107,16 @@ npm run dev
 - تمرین طراحی رابط کاربری واکنش‌گرا
 - تجربه همکاری تیمی در توسعه نرم‌افزار
 
-## 👨‍💻 توسعه‌دهنده
+## 👨‍💻 توسعه‌دهنده فرانت
 
 **امیر ولی‌پور**
 
 - GitHub: [@amirvp77](https://github.com/amirvp77)
 - Repository: [online-shop](https://github.com/amirvp77/online-shop)
+
+- ## 👨‍💻 توسعه‌دهنده بک 
+- GitHub: [@MohammadRezaMoghaddamirad]([https://github.com/amirvp77](https://github.com/MohammadRezaMoghaddamirad))
+- Repository: [online-shop]([https://github.com/amirvp77/online-shop](https://github.com/MohammadRezaMoghaddamirad/online-shop))
 
 ---
 
